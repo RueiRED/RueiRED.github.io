@@ -90,7 +90,37 @@ hr {
 .shadowSection {
   min-height: 250px;
 }
+/*-----這邊放底下圖片-----*/
+.parallaxbutton {
+  background-image: url("https://www.steamxo.com/wp-content/uploads/2018/09/SCM6ADSCM6AD_364510.jpg");
+  min-height: 100vh;
+}
 
+.buttonphoto {
+  min-height: 250px;
+}
+
+.shadow, .buttonshadow {
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  width: 100%;
+}
+
+.buttonshadow {
+  min-height: 250px;
+}
+
+#buttonRow {
+  background-image: url("https://p2.bahamut.com.tw/HOME/creationCover/13/0004940613_B.JPG");
+  background-repeat: no-repeat;
+  background-size: 2000px 1150px;
+  text-align: center;
+  color: white;
+}
+#buttonRow h2 {
+  padding-top: 100px;
+}
+/*-------------------*/
 .jumboBanner {
   text-align: center;
 }
