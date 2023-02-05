@@ -30,20 +30,4 @@ bannerBtn.onclick = function() {
   document.querySelector("#aboutRow").scrollIntoView();
   window.scrollBy(0, -50);
 }
-
-//Clear input on click in the form
-var formName = document.querySelector("#formName");
-formName.onclick = function() {
-  formName.value = "";
-}
-
-var formEmail = document.querySelector("#formEmail");
-formEmail.onclick = function() {
-  formEmail.value = "";
-}
-
-var formMessage = document.querySelector("#formMessage");
-formMessage.onclick = function() {
-  formMessage.value = "";
-}
 }
