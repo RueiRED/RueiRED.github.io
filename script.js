@@ -16,7 +16,7 @@ about.onclick = function() {
 
 services.onclick = function() {
   document.querySelector("#servicesRow").scrollIntoView();
-  window.scrollBy(0, -50);
+  window.scrollBy(0, 700);
 }
 
 contact.onclick = function() {
